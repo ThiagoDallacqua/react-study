@@ -16,7 +16,7 @@ const SideNav = props => {
     return () => {
       clearTimeout(interval)
     }
-  }, [props.greeting])
+  }, [props.greeting, interval])
   
   const toggleMenu = () => setIsOpen(!isOpen);
 
