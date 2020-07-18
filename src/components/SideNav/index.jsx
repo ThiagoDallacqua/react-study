@@ -23,7 +23,7 @@ const SideNav = props => {
   return (
     <div
       onClick={toggleMenu}
-      className="container"
+      className='container'
     >
       {isOpen && (<span className='spanContainer'>{greeting}</span>)}
     </div>
