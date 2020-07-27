@@ -1,6 +1,7 @@
 .container {
   padding: 100px 0;
   cursor: pointer;
+  background-color: burlywood;
 }
 
 .spanContainer {
